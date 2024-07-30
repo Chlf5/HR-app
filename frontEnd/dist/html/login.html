@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style/login.css">
+</head>
+
+<body id="body">
+    <form id="login_form">
+        <label for="email">Email</label>
+        <input type="text" id="email" required>
+        <br>
+        <label for="password">Password</label>
+        <input type="password" id="password" required>
+        <br>
+        <button type="submit">Login</button>
+        <p id="message"></p>
+    </form>
+
+    <!-- Loading interface -->
+    <div id="main_start" class="main_start">
+        <div id="start_logo" class="start">
+            Implify
+        </div>
+        Making Information Simple, Tangible and Beautiful.
+        <div class="loading">
+            <img width="20rem" height="20rem" src="img/loading.gif" alt="Loading...">
+            ...loading please wait
+        </div>
+    </div>
+
+    <script src="login.js"></script>
+</body>
+
+</html>

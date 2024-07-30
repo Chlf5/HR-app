@@ -1,0 +1,83 @@
+/* style/index.css */
+
+/* Basic reset and body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Light gray background */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    background: linear-gradient(to right, blue, purple, violet, yellow, green); /* Gradient background */
+    -webkit-background-clip: border-box; /* Ensures gradient covers entire body */
+}
+
+
+.main_start {
+    text-align: center;
+    color: rgb(46, 129, 157);
+    display: none;
+}
+
+.start {
+    text-align: center;
+    padding-top: 8rem;
+    font-size: 5rem;
+    background: linear-gradient(to right, yellow 45%, green 48%, blue 51%, darkviolet 54%, violet 57%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.loading {
+    padding-top: 20rem;
+}
+
+/* Form container */
+form {
+    width: 300px;
+    background-color: #fff; /* White background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    background-color: transparent;
+}
+
+/* Label styles */
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+/* Input styles */
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Button styles */
+button[type="submit"] {
+    background-color: #4CAF50; /* Green button background */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+/* Error message style */
+#message {
+    color: red;
+    font-weight: bold;
+}

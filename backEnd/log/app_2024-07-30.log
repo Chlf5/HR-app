@@ -1,0 +1,11 @@
+2024-07-30 11:23:59,732 - __main__ - INFO - Fetching employees with their company details
+2024-07-30 11:23:59,732 - __main__ - INFO - Fetching all companies
+2024-07-30 11:24:56,646 - __main__ - INFO - Updating employee with id: 376 with data: {'access_right': 'admin', 'address': '456 Maple', 'city': 'bsharre', 'color': '', 'company': '', 'company_id': 2, 'country': 'lebanon', 'email': 'cf@hotmail.com', 'fname': 'Charbel', 'id': 376, 'lname': 'Fakhry', 'password': '123456', 'photo': {}}
+2024-07-30 11:24:56,682 - __main__ - INFO - Fetching employees with their company details
+2024-07-30 11:24:56,682 - __main__ - INFO - Fetching all companies
+2024-07-30 11:25:31,809 - __main__ - INFO - Updating employee with id: 406 with data: {'access_right': 'readAndWrite', 'address': '456 Maple', 'city': 'bsharre', 'color': '', 'company': '', 'company_id': 3, 'country': 'lebanon', 'email': 'gf@hotmail.com', 'fname': 'Gaelle', 'id': 406, 'lname': 'Fakhry', 'password': '123456', 'photo': {}}
+2024-07-30 11:25:31,841 - __main__ - INFO - Fetching employees with their company details
+2024-07-30 11:25:31,843 - __main__ - INFO - Fetching all companies
+2024-07-30 11:25:44,020 - __main__ - INFO - Updating employee with id: 437 with data: {'access_right': 'read', 'address': '456 Maple', 'city': 'bsharre', 'color': '', 'company': '', 'company_id': 6, 'country': 'lebanon', 'email': 'bk@hotmail.com', 'fname': 'Bchara', 'id': 437, 'lname': 'Kayrouz', 'password': '123456', 'photo': {}}
+2024-07-30 11:25:44,051 - __main__ - INFO - Fetching all companies
+2024-07-30 11:25:44,052 - __main__ - INFO - Fetching employees with their company details
